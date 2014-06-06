@@ -1,0 +1,127 @@
+body {
+	background-color: #fff;
+	color: #555;
+}
+
+.text-montserrat {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+}
+
+.border-text {
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.intro {
+    background: url(../img/gym-9.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content-section {
+	padding: 0;
+}
+
+.container.content-section {
+	padding: 100px 0 50px;
+}
+
+section {
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.dark-color {
+	color: #555;
+}
+
+.light-color {
+	color: #9b9b9b;
+}
+
+.white-color {
+	color: #fff;
+}
+
+.border-img {
+	border: 1px solid #9b9b9b;
+	padding: 10px;
+}
+
+.btn-circle-dark {
+	border: 2px solid #b9b9b9;
+	color: #b9b9b9;
+}
+
+.btn-circle-dark:hover {
+	border: 2px solid #b9b9b9;
+	color: #b9b9b9;
+}
+
+#carousel-example-generic .item img {
+	width: 100%;
+	height: 350px;
+}
+
+.carousel-caption {
+	background-color: #555;
+	color: #fff;
+	padding: 15px 15px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 20px;
+	line-height: 2px;
+	border-bottom: 3px solid #222;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	opacity: 0.8;
+}
+
+p {
+	font-size: 16px;
+}
+
+.download-section {
+	background: url(../img/gym-13.jpg) no-repeat center center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.black-box {
+	background-color: #000;
+	padding: 30px 20px;
+	border-bottom: 10px solid #9b9b9b;
+}
+
+.tips {
+	list-style-image: url('../img/list-style.png');
+}
+
+.tips li {
+	display: list-item;
+	vertical-align: top;
+}
+
+.gym-guy {
+	position: absolute;
+	max-width: 600px;
+	left: -340px;
+	top: 60px;
+}
+
+#map {
+	margin-top: 0px;
+}
+
+form input, form textarea {
+	width: 100%;
+}
