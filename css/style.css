@@ -125,3 +125,13 @@ p {
 form input, form textarea {
 	width: 100%;
 }
+
+@media (max-width: 600px) {
+	.gym-guy {
+		left: 0;
+		opacity: 0.2;
+	}
+	.black-small {
+		color: #000 !important;
+	}
+}
