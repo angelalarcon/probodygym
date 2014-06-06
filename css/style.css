@@ -30,6 +30,7 @@ body {
 
 section {
 	position: relative;
+	overflow-x: hidden;
 }
 
 img {
@@ -130,8 +131,15 @@ form input, form textarea {
 	.gym-guy {
 		left: 0;
 		opacity: 0.2;
+		max-width: 500px;
 	}
 	.black-small {
 		color: #000 !important;
+	}
+}
+
+@media (max-width: 400px) {
+	.gym-guy {
+		max-width: 400px;
 	}
 }
